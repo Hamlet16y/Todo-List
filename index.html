@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="todo-cont">
+        <div>
+            <form>
+                <input type="text" id="todoInp" />
+                <button>Add</button>
+            </form>
+                    <ul id="todoList"></ul>
+                </div>
+                    <div class="todo-footer">
+                <div>
+                    <span id="completedsCount">0</span>
+                    <span>/</span>
+                    <span id="totalCount">8</span>
+                </div>
+            <div>
+                <button onclick="clearCompleteds()">Clear Completeds</button>
+                <button onclick="removeAll()">Clear All</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
